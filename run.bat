@@ -1,0 +1,5 @@
+@ECHO OFF
+TITLE JAVA
+CLS
+java -jar "PROJECT_CONSOLA.jar" 
+PAUSE
