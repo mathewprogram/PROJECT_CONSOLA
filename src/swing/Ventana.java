@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Ventana extends javax.swing.JFrame {
 
     /**
-     * Creates new form Ventana
+     * Creates new form Window
      */
     public Ventana() {
         initComponents();
