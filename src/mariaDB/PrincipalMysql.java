@@ -17,9 +17,9 @@ public class PrincipalMysql {
         JTextArea txaContenido = vs.getTextArea();
         String s, query;
         //String url = "jdbc:mysql://localhost:3306/CAMPUSFP1"; es lo mismo localhost = 127.0.0.1 la ip de prueba;
-        String url = "jdbc:mysql://127.0.0.1:3306/CAMPUSFP1"; // Protocolo, IP o nombre del servidor, puerto, nombre de la base de datos
+        String url = "jdbc:mariadb://127.0.0.1:3307/DBRegister"; // Protocolo, IP o nombre del servidor, puerto, nombre de la base de datos
         String usuario = "root";
-        String clave = "";
+        String clave = "12345678";
         
         Connection conexion = null;
         
